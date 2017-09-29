@@ -1,0 +1,130 @@
+body, html{
+	font-family: Raleway, sans-serif;
+}
+
+.flow-font{
+	font-family:"Poiret One";
+	color:#e0dde6;
+}
+
+p{
+	font-size: 16px;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+#logo{
+	font-family: Josefin Sans;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.navbar-wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-wrapper .navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar .navbar-default{
+	background-color: #f7f8f0;
+}
+
+/*Header section 
+-------------------------------------------------*/
+#header{
+	margin-top:30px;
+	background-color:#f7f8f0;
+}
+
+#hero {
+	max-height: inherit;
+}
+
+.well{
+	background-color: #2c6240;
+	text-align: center;
+}
+
+#main-text {
+	font-family: Josefin Sans;
+	color: #362f2d;
+}
+
+.invitation-section{
+	padding-bottom:45px;
+}
+
+#join-text{
+	color:#ef9d87;
+}
+
+#signup-input-top{
+	height: 50px;
+}
+
+.btn{
+	background-color:#2c6240;
+	height:50px;
+}
+
+.btn-success:hover, .btn-success:active{
+	background-color:#2c6240;
+}
+
+
+/*How it works
+----------------------------------------------*/
+#howitworks {
+	background-color: #f2bb44;
+	padding:25px 15px;
+}
+
+.icon1 {
+	width:50%;
+}
+
+.icon-header{
+	text-align: center;
+}
+
+.thumbnail {
+	background-color: inherit;
+	border: none;
+}
+
+/*Sign Up Form Bottom*/
+#last-signup{
+	padding:25px 15px;
+	background-color:#f7f8f0;
+}
+
+#signup-input{
+	height: 45px;
+	border-style:none;
+}
+
+#signup-label{
+	font-family: Josefin Sans;
+	font-size: 2em;
+	color:#362f2d;
+	margin:0 auto;
+}
+#submit-button{
+	background-color:#ef9d87;
+	color:#e0dde6 ;
+}
+
